@@ -1,4 +1,4 @@
-import { BiArrowFromBottom, BiArrowFromLeft, BiArrowFromRight, BiDownload } from "react-icons/bi";
+import { BiDownload } from "react-icons/bi";
 import aboutImg from "../../assets/aboutImge.png";
 const About = () => {
   return (
@@ -22,7 +22,9 @@ const About = () => {
             to connect and collaborate on innovative projects. Let’s build
             something exceptional together.
           </p>
-          <button className="bg-blue-700 rounded px-10 py-2 text-white flex items-center gap-2">Hire Me <BiDownload className="text-xl"/></button>
+          <button className="bg-blue-700 rounded px-10 py-2 text-white flex items-center gap-2">
+            Hire Me <BiDownload className="text-xl" />
+          </button>
         </div>
       </div>
     </div>

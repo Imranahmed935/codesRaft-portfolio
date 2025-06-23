@@ -29,7 +29,7 @@ const Skill = () => {
       <div className="md:py-14 py-4 flex flex-wrap gap-6  ">
         {
             skills.map((skill, inx)=>(
-                 <h1 className="border border-gray-800 hover:border-blue-600 rounded p-4" key={inx}>{skill.name}</h1>
+                 <h1 className="border border-gray-800 hover:border-blue-600 hover:translate-y-2 scale-105 transition-transform duration-300 rounded p-4" key={inx}>{skill.name}</h1>
             ))
         }
       </div>

@@ -50,7 +50,7 @@ const Navbar = () => {
       </div>
 
       {openMenu && (
-        <div className="absolute top-20 right-4 w-[70%] bg-gray-200 p-4 rounded-xl shadow-lg md:hidden flex flex-col gap-3 text-gray-800 font-medium ">
+        <div className="absolute top-24 right-4 text-left w-[70%] bg-gray-200 p-4 rounded-xl shadow-lg md:hidden flex flex-col gap-3 text-gray-800 font-medium ">
           {links.map((link) => (
             <NavLink
               key={link.name}

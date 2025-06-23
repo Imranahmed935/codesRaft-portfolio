@@ -1,16 +1,14 @@
-
-import './App.css'
+import "./App.css";
+import About from "./Components/About/About";
+import Home from "./Pages/Home/Home";
 
 function App() {
- 
-
   return (
     <>
-  
-      <h1 className='text-red-400 text-3xl font-bold'>Vite + React</h1>
-  
+      <Home />
+      <About/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

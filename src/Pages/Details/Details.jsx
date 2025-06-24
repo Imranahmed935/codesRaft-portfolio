@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 
 const Details = () => {
   const details = useLoaderData();
@@ -8,12 +8,12 @@ const Details = () => {
   return (
     <div>
       <div>
-       <h1 className="text-left md:text-3xl text-2xl font-semibold mt-6">
-        welcome to details page
-      </h1>
-      <h3 className="text-left text-lg">
-        here you can see everything about this project.
-      </h3>
+        <h1 className="text-left md:text-3xl text-2xl font-semibold mt-6">
+          welcome to details page
+        </h1>
+        <h3 className="text-left text-lg">
+          here you can see everything about this project.
+        </h3>
       </div>
       <div>
         <div className="md:py-10 py-4">
@@ -25,7 +25,9 @@ const Details = () => {
           <div className="md:flex gap-6 items-center ">
             <span className="text-lg font-bold">Technologies:</span>
             {techStack.map((tech) => (
-              <h3 className="border border-gray-500 p-2 rounded-lg mb-2">{tech}</h3>
+              <h3 className="border border-gray-500 p-2 rounded-lg mb-2">
+                {tech}
+              </h3>
             ))}
           </div>
           <div className="flex items-center gap-8">
@@ -39,9 +41,9 @@ const Details = () => {
                 GitHub Link
               </button>
             </a>
-            <a>
+            <Link to={"/"}>
               <button className="border-b-2 border-blue-600">Go back</button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

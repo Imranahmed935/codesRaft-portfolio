@@ -24,7 +24,7 @@ const Home = () => {
             >
               Hire Me <BiDownload className="text-xl" />
             </a>
-            <button className=" border border-blue-700 px-5 py-2 rounded-full hover:bg-blue-700 hover:text-white dark:text-gray-700 transition duration-300">
+            <button className=" border border-blue-700 px-5 py-2 rounded-full hover:bg-blue-800 hover:text-white dark:text-gray-700 transition duration-300">
               Latest Projects
             </button>
           </div>

@@ -17,9 +17,13 @@ const Home = () => {
           </p>
 
           <div className="flex gap-4">
-            <button className="bg-blue-700 px-10 py-2 rounded text-white flex items-center gap-2">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1zAAAhgU7BHi2ixys3fUP2d1iSdrw-v2e"
+              className="bg-blue-700 px-10 py-2 rounded text-white flex items-center gap-2 cursor-pointer"
+              download
+            >
               Hire Me <BiDownload className="text-xl" />
-            </button>
+            </a>
             <button className=" border border-blue-700 px-5 py-2 rounded-full hover:bg-blue-700 hover:text-white dark:text-gray-700 transition duration-300">
               Latest Projects
             </button>

@@ -8,7 +8,6 @@ const Navbar = () => {
 
   const links = [
     { name: "Home", path: "/" },
-    { name: "Projects", path: "/Projects" },
     { name: "Services", path: "/Services" },
     { name: "Contact", path: "/Contact" },
   ];
@@ -32,9 +31,6 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      {/* <button className="hidden md:block border border-blue-700 px-5 py-2 rounded-full hover:bg-blue-700 hover:text-white dark:text-gray-700 transition duration-300">
-        Hire Me
-      </button> */}
       <div className="md:flex gap-4 cursor-pointer text-2xl hidden">
         <FaFacebook />
         <FaLinkedin />
